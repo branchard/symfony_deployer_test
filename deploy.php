@@ -7,7 +7,7 @@
 require 'recipe/symfony.php';
 
 // Set configurations
-set('repository', 'git@domain.com:username/repository.git');
+set('repository', 'git@github.com:branchard/symfony_deployer_test.git');
 set('shared_files', ['app/config/parameters.yml']);
 set('shared_dirs', ['app/logs']);
 set('writable_dirs', ['app/cache', 'app/logs']);
